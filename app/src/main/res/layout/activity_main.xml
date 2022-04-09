@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="0sp"
+    android:layout_marginBottom="0sp"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/pngbg"
+    tools:context="com.hospital.Shaykat.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bloginregister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="15sp"
+            android:onClick="login"
+            android:text="Login or Register"
+            android:textAllCaps="false"
+            android:textSize="17sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/emergency"
+            android:layout_gravity="center"
+            android:padding="15sp"
+            android:onClick="emergency"
+            android:text="Emergency services"
+            android:textSize="17sp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="availDoctors"
+            android:padding="15sp"
+            android:text="Doctors Available"
+            android:textAllCaps="false"
+            android:textSize="17sp" />
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="availServices"
+            android:padding="15sp"
+            android:text="Services Provided"
+            android:textAllCaps="false"
+            android:textSize="17sp" />
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="help"
+            android:padding="15sp"
+            android:text="Help"
+            android:textAllCaps="false"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+</ScrollView>
+
